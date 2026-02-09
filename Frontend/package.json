@@ -1,0 +1,29 @@
+{
+  "name": "SmartRestroomFinder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.0",
+    "react-native-maps": "^1.10.0",
+    "react-native-geolocation-service": "^5.3.1",
+    "axios": "^1.6.0",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "react-native-vector-icons": "^10.0.3",
+    "react-native-gesture-handler": "^2.14.0",
+    "react-native-safe-area-context": "^4.8.0",
+    "react-native-screens": "^3.29.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/runtime": "^7.23.0",
+    "metro-react-native-babel-preset": "^0.77.0"
+  }
+}
