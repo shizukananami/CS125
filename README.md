@@ -22,6 +22,7 @@ Built in React Native (Expo) for mobile frontend and Python (Flask) for backend.
 - Restroom metadata (accessibility, baby-changing stations, gender-neutral options, operating hours)
 - User interaction history and saved preferences
 - Public map and facility datasets
+ - Some restroom entries were imported from Refuge Restrooms (refugerestrooms.org)
 
 ## Matching & Ranking
 - Restrooms rank higher if they:
