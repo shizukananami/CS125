@@ -8,7 +8,12 @@ def simple_distance(lat1, lon1, lat2, lon2):
     return ((lat1 - lat2) ** 2 + (lon1 - lon2) ** 2) ** 0.5
 
 def is_open(bathroom, current_time):
-    start, end = bathroom['opening_hours'].split('-')
+    oh = bathroom.get('opening_hours') or '00:00-23:59'
+    try:
+        start, end = str(oh).split('-')
+    except Exception:
+        # If opening hours aren't parsable, assume open
+        return True
     return start <= current_time <= end
 
 def rank_bathrooms(bathrooms, user_context, top_k=10):
@@ -22,8 +27,9 @@ def rank_bathrooms(bathrooms, user_context, top_k=10):
             score += 5
 
         # intersect amenities with user preferences
-        score += len(set(bathroom['amenities']) & set(user_context['preferences'])) * AMENITIES_SCORE
-        score += bathroom['ratings']['cleanliness'] * CLEANLINESS_SCORE
+        score += len(set(bathroom.get('amenities', [])) & set(user_context.get('preferences', []))) * AMENITIES_SCORE
+        cleanliness = (bathroom.get('ratings') or {}).get('cleanliness') or 0.0
+        score += cleanliness * CLEANLINESS_SCORE
 
         dist = simple_distance(
             user_lat, user_lng,
