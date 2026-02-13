@@ -30,4 +30,3 @@ Built in React Native (Expo) for mobile frontend and Python (Flask) for backend.
   - Have strong, recent crowd-sourced ratings
   - Reflect current availability and conditions
 - Outdated or poorly rated facilities are deprioritized to maintain reliability.
->>>>>>> 0aca962fa5d3ac2da0189fe4327c08f21228db49

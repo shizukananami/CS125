@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000'; //Backend URL^^ add later... somebody
+const API_BASE_URL = 'http://localhost:5000/api'; //Backend URL^^ add later... somebody
 
 export const getTopBathrooms = async (userContext) => {
   try {
