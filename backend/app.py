@@ -5,7 +5,7 @@ from ranking import rank_bathrooms
 
 app = Flask(__name__)
 CORS(app)
-with open('backend/data/bathrooms.json') as f:
+with open('data/bathrooms.json') as f:
     bathrooms = json.load(f)
 
 @app.route('/api/top-bathrooms', methods=['POST'])
