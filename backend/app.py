@@ -4,7 +4,7 @@ from ranking import rank_bathrooms
 
 app = Flask(__name__)
 
-with open('backend/data/bathrooms.json') as f:
+with open('data/bathrooms.json') as f:
     bathrooms = json.load(f)
 
 @app.route('/top-bathrooms', methods=['POST'])
