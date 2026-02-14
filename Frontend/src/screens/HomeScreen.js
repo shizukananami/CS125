@@ -9,7 +9,7 @@ import {
   Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import Geolocation from 'react-native-geolocation-service';
+import * as Location from 'expo-location';
 import BathroomCard from '../components/BathroomCard';
 import BathroomMapView from '../components/MapView';
 import FilterModal from '../components/FilterModal';
@@ -34,26 +34,30 @@ const HomeScreen = ({ navigation }) => {
     }
   }, [userLocation, preferences, urgency]);
 
-  const getCurrentLocation = () => {
-    Geolocation.getCurrentPosition(
-      (position) => {
-        setUserLocation({
-          latitude: position.coords.latitude,
-          longitude: position.coords.longitude,
-        });
-      },
-      (error) => {
-        console.log(error);
-        Alert.alert('Location Error', 'Unable to get your location. Using default location.');
+  const getCurrentLocation = async () => {
+    setLoading(true);
+    try {
+      const { status } = await Location.requestForegroundPermissionsAsync();
+      
+      if (status !== 'granted') {
+        Alert.alert('Permission Denied', 'We need location access to find nearby restrooms.');
+        setLoading(false);
+        return;
+      }
+      const location = await Location.getCurrentPositionAsync({
+        accuracy: Location.Accuracy.Balanced,
+      });
 
-        // Defaults to UCI campus
-        setUserLocation({
-          latitude: 33.6846,
-          longitude: -117.8265,
-        });
-      },
-      { enableHighAccuracy: true, timeout: 15000, maximumAge: 10000 }
-    );
+      setUserLocation({
+        latitude: location.coords.latitude,
+        longitude: location.coords.longitude,
+      });
+    } catch (error) {
+      console.error(error);
+      Alert.alert('Error', 'Something went wrong while getting your location.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const fetchBathrooms = async () => {
@@ -106,90 +110,95 @@ const HomeScreen = ({ navigation }) => {
     navigation.navigate('BathroomDetail', { bathroom, userLocation });
   };
 
-  return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerTitle}>Smart Restroom Finder</Text>
-        <View style={styles.headerButtons}>
-          <TouchableOpacity
-            style={styles.iconButton}
-            onPress={() => setFilterVisible(true)}
-          >
-            <Icon name="tune" size={24} color="#2196F3" />
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.iconButton}
-            onPress={() => setViewMode(viewMode === 'list' ? 'map' : 'list')}
-          >
-            <Icon
-              name={viewMode === 'list' ? 'map' : 'list'}
-              size={24}
-              color="#2196F3"
-            />
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.iconButton} onPress={fetchBathrooms}>
-            <Icon name="refresh" size={24} color="#2196F3" />
-          </TouchableOpacity>
-        </View>
-      </View>
+  // return (
+  //   <View style={styles.container}>
+  //     <View style={styles.header}>
+  //       <Text style={styles.headerTitle}>Smart Restroom Finder</Text>
+  //       <View style={styles.headerButtons}>
+  //         <TouchableOpacity
+  //           style={styles.iconButton}
+  //           onPress={() => setFilterVisible(true)}
+  //         >
+  //           <Icon name="tune" size={24} color="#2196F3" />
+  //         </TouchableOpacity>
+  //         <TouchableOpacity
+  //           style={styles.iconButton}
+  //           onPress={() => setViewMode(viewMode === 'list' ? 'map' : 'list')}
+  //         >
+  //           <Icon
+  //             name={viewMode === 'list' ? 'map' : 'list'}
+  //             size={24}
+  //             color="#2196F3"
+  //           />
+  //         </TouchableOpacity>
+  //         <TouchableOpacity style={styles.iconButton} onPress={fetchBathrooms}>
+  //           <Icon name="refresh" size={24} color="#2196F3" />
+  //         </TouchableOpacity>
+  //       </View>
+  //     </View>
 
-      {preferences.length > 0 && (
-        <View style={styles.activeFilters}>
-          <Text style={styles.filterText}>
-            Active filters: {preferences.join(', ')}
-          </Text>
-          {urgency !== 'normal' && (
-            <Text style={styles.urgencyText}>Urgency: {urgency}</Text>
-          )}
-        </View>
-      )}
+  //     {preferences.length > 0 && (
+  //       <View style={styles.activeFilters}>
+  //         <Text style={styles.filterText}>
+  //           Active filters: {preferences.join(', ')}
+  //         </Text>
+  //         {urgency !== 'normal' && (
+  //           <Text style={styles.urgencyText}>Urgency: {urgency}</Text>
+  //         )}
+  //       </View>
+  //     )}
 
-      {loading ? (
-        <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#2196F3" />
-          <Text style={styles.loadingText}>Finding best restrooms...</Text>
-        </View>
-      ) : viewMode === 'list' ? (
-        <FlatList
-          data={bathrooms}
-          keyExtractor={(item, index) => index.toString()}
-          renderItem={({ item }) => (
-            <BathroomCard
-              bathroom={item}
-              distance={
-                userLocation
-                  ? calculateDistance(
-                      userLocation.latitude,
-                      userLocation.longitude,
-                      item.location[0],
-                      item.location[1]
-                    )
-                  : null
-              }
-              onPress={() => handleBathroomPress(item)}
-            />
-          )}
-          ListEmptyComponent={
-            <View style={styles.emptyContainer}>
-              <Icon name="search-off" size={48} color="#ccc" />
-              <Text style={styles.emptyText}>No restrooms found nearby</Text>
-            </View>
-          }
-        />
-      ) : (
-        <BathroomMapView
-          bathrooms={bathrooms}
-          userLocation={userLocation}
-          onMarkerPress={handleBathroomPress}
-        />
-      )}
+  //     {loading ? (
+  //       <View style={styles.loadingContainer}>
+  //         <ActivityIndicator size="large" color="#2196F3" />
+  //         <Text style={styles.loadingText}>Finding best restrooms...</Text>
+  //       </View>
+  //     ) : viewMode === 'list' ? (
+  //       <FlatList
+  //         data={bathrooms}
+  //         keyExtractor={(item, index) => index.toString()}
+  //         renderItem={({ item }) => (
+  //           <BathroomCard
+  //             bathroom={item}
+  //             distance={
+  //               userLocation
+  //                 ? calculateDistance(
+  //                     userLocation.latitude,
+  //                     userLocation.longitude,
+  //                     item.location[0],
+  //                     item.location[1]
+  //                   )
+  //                 : null
+  //             }
+  //             onPress={() => handleBathroomPress(item)}
+  //           />
+  //         )}
+  //         ListEmptyComponent={
+  //           <View style={styles.emptyContainer}>
+  //             <Icon name="search-off" size={48} color="#ccc" />
+  //             <Text style={styles.emptyText}>No restrooms found nearby</Text>
+  //           </View>
+  //         }
+  //       />
+  //     ) : (
+  //       <BathroomMapView
+  //         bathrooms={bathrooms}
+  //         userLocation={userLocation}
+  //         onMarkerPress={handleBathroomPress}
+  //       />
+  //     )}
 
-      <FilterModal
-        visible={filterVisible}
-        onClose={() => setFilterVisible(false)}
-        onApply={handleApplyFilters}
-        currentPreferences={preferences}
-      />
+  //     <FilterModal
+  //       visible={filterVisible}
+  //       onClose={() => setFilterVisible(false)}
+  //       onApply={handleApplyFilters}
+  //       currentPreferences={preferences}
+  //     />
+  //   </View>
+  // );
+    return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>testing123</Text>
     </View>
   );
 };

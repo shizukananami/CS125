@@ -1,18 +1,5869 @@
 [
   {
     "name": "Library Bathroom",
-    "amenities": ["wheelchair", "gender_neutral"],
-    "location": [33.6846, -117.8265],
-    "ratings": {"cleanliness": 4.5, "safety": 4.0, "overall": 4.3},
+    "amenities": [
+      "wheelchair",
+      "gender_neutral"
+    ],
+    "location": [
+      33.6846,
+      -117.8265
+    ],
+    "ratings": {
+      "cleanliness": 4.5,
+      "safety": 4.0,
+      "overall": 4.3
+    },
     "opening_hours": "08:00-22:00",
-    "crowd_updates": "low"
+    "crowd_updates": "low",
+    "id": "1770939734955316",
+    "source": {
+      "name": "unknown"
+    },
+    "fetched_at": "2026-02-12T15:42:14.955316Z"
   },
   {
     "name": "Student Center Bathroom",
-    "amenities": ["baby_changing"],
-    "location": [33.6850, -117.8270],
-    "ratings": {"cleanliness": 4.0, "safety": 4.2, "overall": 4.1},
+    "amenities": [
+      "baby_changing"
+    ],
+    "location": [
+      33.685,
+      -117.827
+    ],
+    "ratings": {
+      "cleanliness": 4.0,
+      "safety": 4.2,
+      "overall": 4.1
+    },
     "opening_hours": "07:00-23:00",
-    "crowd_updates": "medium"
+    "crowd_updates": "medium",
+    "id": "1770939734955317",
+    "source": {
+      "name": "unknown"
+    },
+    "fetched_at": "2026-02-12T15:42:14.955316Z"
+  },
+  {
+    "id": "113562ff-16be-4f8e-934d-54279562c561",
+    "name": "Arby's",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6925654,
+      -117.8261743
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 45697
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "ebd74aa2-e347-4d21-9f7b-bfabdbd34f00",
+    "name": "Ralphs Westpark",
+    "amenities": [],
+    "location": [
+      33.6773086,
+      -117.8330275
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 434
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "a6a5df18-6a04-443d-8608-0517f27cf5c3",
+    "name": "Peet's Coffee and Tea",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6849902,
+      -117.8107185
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48340
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "e8d1a211-7ae0-4129-b6a1-568a1f5b0f9c",
+    "name": "2457 Park Ave, Tustin, CA 92782",
+    "amenities": [],
+    "location": [
+      33.6977609,
+      -117.828375
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 21711
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "452897e1-8644-4aab-b6ee-65f2cac40767",
+    "name": "Target",
+    "amenities": [
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.7001446,
+      -117.8275481
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39339
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "780e4866-126f-4a14-aa14-0ff556e439e9",
+    "name": "North Italia",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6717498,
+      -117.8450233
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35056
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "d02ad30d-30dd-47f8-b670-2abb2340da43",
+    "name": "4500-4820 Barranca Pkwy, Irvine, CA 92604, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6771596,
+      -117.8001849
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51057
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "676154aa-e021-4b2b-9fc4-b61f4daffb92",
+    "name": "Orange County Airport",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.681457,
+      -117.858745
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2329
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "af346504-3141-43c9-9a60-841d9033a944",
+    "name": "Sandwich King",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6912189,
+      -117.858342
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 47641
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "689e64da-2d13-4a1d-976d-3d46b53f2080",
+    "name": "Circle K Gas Station/Subway Restaurant",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7072459,
+      -117.8070491
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 1838
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "3e441628-f1ea-4653-a6c7-d8475e1133df",
+    "name": "Sun Healthcare Group building",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6722267,
+      -117.8576876
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32920
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "4cdee8ec-f19b-49f7-a439-0444d844e4fd",
+    "name": "Terra Patio",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.678927,
+      -117.861238
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4501
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "50224c00-2054-44f1-a9f7-4ff2ce951fc2",
+    "name": "John wayne airport",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6731746,
+      -117.8637692
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 34714
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "ccf6761c-b7dc-476b-ac6c-12c4a7cc7a8f",
+    "name": "Mendocino Farms Irvine",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6501615,
+      -117.8244306
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35138
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "166242de-faa0-4c38-8f8b-3d81619ae630",
+    "name": "Mendocino Farms",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6508376,
+      -117.838792
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35041
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "08567d3f-2eec-4b6d-b547-f99534b6bdfa",
+    "name": "Trader Joe's",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6504007,
+      -117.8375245
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4195
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "c997e1a4-8e52-4310-91cd-d8105be17ae4",
+    "name": "Edwards University Town Center 6",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6498899,
+      -117.8385425
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 16853
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "ed9fca7c-2d22-46ab-adb0-8e11ca0cdea4",
+    "name": "New York's Upper Crust Pizza",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6699084,
+      -117.7864022
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24488
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "8b58f68e-0916-4d85-b290-9357fb717a56",
+    "name": "Target",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.649597,
+      -117.8389272
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 53964
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "13270546-fe07-4d70-82ea-b3876dded9de",
+    "name": "Veggie Grill",
+    "amenities": [],
+    "location": [
+      33.649294,
+      -117.83977
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4187
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "cc65d67e-1637-40eb-9ded-9e4c5e8bb0d0",
+    "name": "Plaza Verde Community Center",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6475103,
+      -117.8290387
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 55258
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "e2c84463-884b-467f-a2c5-c52bffe1a4ac",
+    "name": "Art, Culture & Technology Building",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6504938,
+      -117.8450257
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 58741
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "7492581a-a275-4b88-b667-c882869c33a2",
+    "name": "Burntzilla",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7061181,
+      -117.787047
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31688
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "471ea48b-6db1-4289-817b-784b24c23f1e",
+    "name": "Four Sea/Si Hai restaurant",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6807302,
+      -117.7792076
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 67632
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "2752f815-648b-4d38-a24a-e11942ca4810",
+    "name": "Humanities Hall",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6473121,
+      -117.8440227
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 58738
+    },
+    "fetched_at": "2026-02-12T15:15:05.678971Z"
+  },
+  {
+    "id": "0bed0eb6-29db-4d38-b740-c4ef9f224ad9",
+    "name": "Middle Earth",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6446505,
+      -117.8375476
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 16056
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "c48786ca-32fa-4b8e-8d5a-7fdb652c6abe",
+    "name": "Starbucks - UC Irvine Student Center",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6467361,
+      -117.8455027
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32513
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "33ce07e6-120b-466c-a45b-84fd73dac4b1",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6467361,
+      -117.8455027
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 43046
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "eaeab70b-479b-4a58-b09c-13e33bc83b77",
+    "name": "Starbucks - UC Irvine Student Center",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6467361,
+      -117.8455027
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32514
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "024069e6-789b-4b31-b24b-084bdb606343",
+    "name": "Palo Verde Clubhouse",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6431249,
+      -117.8348545
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24953
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "442373d7-a7f5-4863-8f1f-c0cea6af72b2",
+    "name": "Howard Schneiderman Lecture Hall 200",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6439254,
+      -117.8414024
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 45790
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "6e7a6e04-050d-471e-b394-57ef4a96d179",
+    "name": "Croul Hall Basement",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6439254,
+      -117.8414024
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 67604
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "d72a384e-bddd-459d-812d-ed9a60f77924",
+    "name": "IVC B-200 Building",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.676084,
+      -117.7749477
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 54941
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "11421050-130a-416e-a336-bf8d60d49f01",
+    "name": "IVC B-200 Building",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.676084,
+      -117.7749477
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 54942
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "2afda1c5-082c-4909-bc3c-b34f04a4a256",
+    "name": "Taco Asylum",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6596126,
+      -117.8720712
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 26559
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "f1db7a42-f9d3-4e66-b02b-8ea8b15d496e",
+    "name": "Tustin Market Place/24 hour fitness",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.72272,
+      -117.789348
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 3507
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "e0018c98-c847-4755-bad0-8979aa83bbb1",
+    "name": "CVS",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6956149,
+      -117.8841035
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41218
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "9c15193d-d42d-4b13-8343-c7724149aa8a",
+    "name": "Coffee Nature",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.664597,
+      -117.8804996
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 46499
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "290e5a43-82bf-4fa5-ae14-7a9389a0b71c",
+    "name": "Coffee Nature",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6647634,
+      -117.8806503
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22597
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "f7ec2002-9dc0-4ce8-b438-a86a06b4c5b1",
+    "name": "Kairakutei Inc",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.733867,
+      -117.828333
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2871
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "bb32f985-197c-401b-a30f-48b9c20e9c2b",
+    "name": "Philz coffee",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6938937,
+      -117.8850317
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 96958
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "8a7a350c-abfa-40ec-85a3-53720361516f",
+    "name": "Baja Fish Tacos",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6940986,
+      -117.8853543
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32260
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "e86a90f5-ed99-4ff6-ade5-37db763c2bc3",
+    "name": "250 Bristol St, Costa Mesa, CA 92626, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6680782,
+      -117.8833151
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51228
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "80d4960f-d853-44df-acbc-2aef5cf45643",
+    "name": "Seabirds Kitchen",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6775633,
+      -117.886193
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25030
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "c95483f1-258c-4819-ac98-4a61fa922c9f",
+    "name": "Blackmarket Bakery",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.678243,
+      -117.8864956
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 28728
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "afdb526a-7710-48a0-9307-67f3c0d46e66",
+    "name": "The Camp",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.67758,
+      -117.886746
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 3124
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "05bf7f6e-5fc3-4c88-8d05-638c360eef78",
+    "name": "Sankai Japanese Cuisine",
+    "amenities": [],
+    "location": [
+      33.69474559157986,
+      -117.8862478037919
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 54279
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "c41029cc-4315-465b-8fba-2a06f2f5ca54",
+    "name": "Chevron Gas Station",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7277138,
+      -117.7942996
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 57415
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "65714508-ab23-4780-8bcb-4dbd04a938e6",
+    "name": "Weinerschnitzel",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7004552,
+      -117.8869315
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50925
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "435b15f4-0406-4ece-b590-4fbf888ab07e",
+    "name": "Natraj's Tandoori",
+    "amenities": [],
+    "location": [
+      33.72900380000001,
+      -117.7882033
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4194
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "b322483d-6956-4969-81ed-52cb7e667062",
+    "name": "8119 Spectrum, Irvine, CA 92618, USA",
+    "amenities": [],
+    "location": [
+      33.6527453,
+      -117.7534914
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39220
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "ca768bbb-5501-404a-8d13-b48f28f8bc39",
+    "name": "Orange Cost College Language Building",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.6706732,
+      -117.9093803
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 67775
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "0c21ccd8-144b-49cd-8f54-b806d436672e",
+    "name": "Orange Coast College",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6713265,
+      -117.9117079
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49354
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "1183644e-c4cd-4573-8339-83ae9fe7d1c5",
+    "name": "Ikea",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6905221,
+      -117.9163349
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 38234
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "f2657d35-7301-44a3-861b-693d030a5a66",
+    "name": "Regal Irvine Spectrum",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.6516874,
+      -117.7450797
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 59149
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "f7658515-ebf0-4695-926a-68611b4d5187",
+    "name": "Orange Coast College",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6675571,
+      -117.9153746
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 19243
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "34e58640-a1c7-4b0e-a3a3-63e56a488d44",
+    "name": "Irvine Spectrum Restrooms",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6499804,
+      -117.7437226
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 28947
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "fa289e31-ec60-46fe-ab7a-a404cd340c5f",
+    "name": "C3 Vapors",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6502532,
+      -117.9095828
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41189
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "3c2bb89c-6d19-4ec9-bd21-31fe1c77418f",
+    "name": "Flip Burger",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6511812,
+      -117.7428362
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 62572
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "ccf1b3ed-90e0-4361-9e1d-7dadffeb6fa9",
+    "name": "Kaiser Permanente",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.701128,
+      -117.9182676
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 52792
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "4241af5e-3815-4f97-bc56-31e03ba0b6bc",
+    "name": "sweetgreen Irvine Spectrum",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.6501081,
+      -117.7418656
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 69299
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "2f211b69-1708-47ce-8ea3-a7ac1f33e7ba",
+    "name": "Starbucks Coffee - Irvine Spectrum Center",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6460474,
+      -117.7439388
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 46816
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "88a61de3-c247-4a11-82bf-7f52cca8db24",
+    "name": "Irvine Spectrum - Macys, 71 Spectrum Center Dr, Irvine, CA 92618, USA",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.6491669,
+      -117.7415522
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 47020
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "2b32e3fe-76ea-48b0-8dde-389221901f6c",
+    "name": "Yogurtland",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6479956,
+      -117.7405162
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 36904
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "f4d300fe-c8f0-40a9-9db4-c3fe12ade75d",
+    "name": "Target, Irvine Spectrum Center",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.64785700000001,
+      -117.7405097
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 60638
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "ca2ce394-3520-4fc5-a8fb-2dc20fce8a95",
+    "name": "24 Hour Fitness (Triangle Square)",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6411316,
+      -117.9186689
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 3506
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "5c5e7283-d026-4075-935e-e814856ae849",
+    "name": "Revenge Of",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      34.1146857,
+      -118.2358507
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 124085
+    },
+    "fetched_at": "2026-02-12T14:48:43.694268Z"
+  },
+  {
+    "id": "c9f7e9f0-b8d9-41b0-92c5-a77fcac6ca34",
+    "name": "MonArt Café & Patisserie",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      34.2316253,
+      -118.5611766
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 124071
+    },
+    "fetched_at": "2026-02-12T14:48:43.694268Z"
+  },
+  {
+    "id": "f64e97d9-7c6e-422d-bc7b-c02a2076f733",
+    "name": "Starbucks",
+    "amenities": [],
+    "location": [
+      33.6396545,
+      -117.8543899
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32509
+    },
+    "fetched_at": "2026-02-12T15:15:05.680480Z"
+  },
+  {
+    "id": "08e33211-ca82-498d-a020-cd370f8e181f",
+    "name": "Tustin Amc 14 at The District",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7458511,
+      -117.826166
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 21710
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "741d05d3-6b9d-4e22-99b5-da00bb86a638",
+    "name": "Coin Laundry",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7459081,
+      -117.8239417
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31186
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "3ef402d8-53cd-4b3d-91dc-054d3761de1c",
+    "name": "Coin Laundry",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7459081,
+      -117.8239417
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31185
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "6a3026a0-2581-4fb4-b12a-1a49d563ca5d",
+    "name": "Two Fishermen Grill",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7486377,
+      -117.8331482
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 28960
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "19c27e85-8864-4d2b-8b7e-421f6a39d069",
+    "name": "Playground",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7477745,
+      -117.865719
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37974
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "8817f670-928f-4ba2-9377-2001a1274f6f",
+    "name": "Playground",
+    "amenities": [],
+    "location": [
+      33.7477745,
+      -117.865719
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 30308
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "61f51e9f-d67b-42d2-a9a7-aacc8b33cccc",
+    "name": "Bird & Barrel",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7482171,
+      -117.8651003
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 62083
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "4185aad4-b02c-47a2-992a-ae402fc03083",
+    "name": "Cafe Calacas",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7479859,
+      -117.8708536
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22351
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "f8623fb7-8edc-4787-ac64-58d5c2e8a030",
+    "name": "The Coffee Bean & Tea Leaf",
+    "amenities": [],
+    "location": [
+      33.7585913,
+      -117.8346663
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24058
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "d2ddc086-5808-446e-a37d-fd26e499e2c2",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6082907,
+      -117.8274107
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 57346
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "e6e126af-ba06-4622-999c-080f5af94083",
+    "name": "fantastic cafe",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.760381,
+      -117.842987
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 403
+    },
+    "fetched_at": "2026-02-12T15:15:06.677041Z"
+  },
+  {
+    "id": "5ef14335-8b03-4bfb-a1ec-da8d9e2de399",
+    "name": "OCSA",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7539236,
+      -117.8680015
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48290
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "f5c58839-8ab5-4d26-a1c9-63a243c7d4ce",
+    "name": "Starbucks Coffee",
+    "amenities": [],
+    "location": [
+      33.616802,
+      -117.872514
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2962
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "01cb0264-d54d-452e-b1ce-d568f91c732f",
+    "name": "Popeyes Louisiana Kitchen",
+    "amenities": [],
+    "location": [
+      33.7594162,
+      -117.8536511
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24163
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "247de27b-bfcb-426f-aa41-cb5508560752",
+    "name": "Blaze Fast Fire'd Pizza",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.615841,
+      -117.8745434
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24378
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "0e5e8c1e-8221-4db8-a820-9299946a1344",
+    "name": "The Center OC",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7593473,
+      -117.8651019
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4619
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "69f30a27-72be-4ce9-9d78-6b258a8e3ef3",
+    "name": "Yo! Sushi",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.75120770000001,
+      -117.8840059
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22354
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "ed673efd-ff46-43c0-a630-d00453e672cc",
+    "name": "Susie Cakes",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6949903,
+      -117.9253829
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49353
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "ac4e135c-c032-48bd-905a-5aa59c39e8ec",
+    "name": "Church of the Foothills",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7657514,
+      -117.797022
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25679
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "07356dfc-e6ad-4e8b-9363-94f57e3820af",
+    "name": "Peet's Coffee",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6067584,
+      -117.8743586
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35682
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "97d5eb67-e484-4723-a092-72b7acc45196",
+    "name": "Susie Cakes",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6274822,
+      -117.9082856
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49352
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "9029d06a-21c5-4d58-8f25-3ebf0cb0e401",
+    "name": "Goodwill",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7744401,
+      -117.8348977
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51772
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "ecb1c55c-fa72-46da-bb67-d0893465f6fb",
+    "name": "Nekter Juice Bar",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6333573,
+      -117.9157807
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51820
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "b43f25bd-5cb0-4868-81bc-da8df80ac94f",
+    "name": "Environmental Nature Center",
+    "amenities": [],
+    "location": [
+      33.622599,
+      -117.907085
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2840
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "02f8dacb-c24f-4a85-a502-a6b1707606cf",
+    "name": "Target",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7618272,
+      -117.888112
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22353
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "f87ff0f5-3943-49e4-b2dd-1f287c427cd5",
+    "name": "Trader Joes",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6367519,
+      -117.9246747
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39199
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "f5257f65-b413-4177-835b-7893e251f903",
+    "name": "2772 N Main St, Santa Ana, CA 92705, USA",
+    "amenities": [],
+    "location": [
+      33.773449,
+      -117.8669294
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37072
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "4d6df8ce-dca7-41b3-858d-85ff2666e4da",
+    "name": "Donkey D’s",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6434861,
+      -117.9330312
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 63851
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "843370fe-9a96-4b21-bec5-30fb211906d2",
+    "name": "Trenta",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.6314055,
+      -117.9284018
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51712
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "e5cb8039-d15c-4850-8d03-0a7d1a2e9b80",
+    "name": "Del Taco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.629351,
+      -117.7251706
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 34791
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "44484fc9-4a3f-4720-9dde-2a886562021f",
+    "name": "La Veta Surgery Center",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7818864,
+      -117.8596382
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37559
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "31ba390b-0c3c-46cc-8e2f-9621e1425aa7",
+    "name": "Pizza 900 Wood Fired Pizzeria",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6283858,
+      -117.7254021
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 79204
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "85c43a90-af36-4cd2-a670-6144e7df1d12",
+    "name": "Tiffanie Cade",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7860603,
+      -117.8285441
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 64790
+    },
+    "fetched_at": "2026-02-12T15:15:06.678048Z"
+  },
+  {
+    "id": "9c1faa30-92d3-4234-ac79-ad311387c569",
+    "name": "Nguyen's Kitchen",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7815272,
+      -117.8670792
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25361
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "6ec5b139-2643-42dc-8023-9fbe3121e083",
+    "name": "Chapman Medical Center",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7881749,
+      -117.8259453
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 16787
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "46075dcf-73d3-41c0-b555-5246036abf54",
+    "name": "which wich sandwiches",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7880151,
+      -117.815618
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23441
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "438abd2a-6e9e-4957-9e06-2b776aa95902",
+    "name": "flame broiler",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7880151,
+      -117.815618
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23443
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "45e446a8-0f84-48d1-a96b-c8aa0e4f30ed",
+    "name": "Hermaco",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7108885,
+      -117.9484858
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2903
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "5c0bbdb0-41e7-40e8-b3a6-6fe131d3b4d2",
+    "name": "99 cent store",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6858654,
+      -117.9529066
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39319
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "140c83ae-d06e-4656-b9cf-de4c32dfe249",
+    "name": "LinX",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7877014,
+      -117.8550339
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23934
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "0f8e14d7-97ed-4801-905b-783c98fd5a15",
+    "name": "Don Jefe Jalapenos Grill",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7892343,
+      -117.8533276
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 44466
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "02300437-0c3e-4753-b3ed-cf7e76e8f021",
+    "name": "T-Milk",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7894046,
+      -117.853215
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 40948
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "b1c3ceaa-e924-4ced-bce0-665b23f9818a",
+    "name": "The Filling Station",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.78985,
+      -117.852809
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 26477
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "0965a956-d7c2-4a00-ada8-276ca7214113",
+    "name": "Pick up sticks",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7009067,
+      -117.9542329
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35418
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "6519ba85-d830-4351-aa07-66841753a900",
+    "name": "Orange County Credit Union",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6978227,
+      -117.9559427
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37911
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "57cbfa4a-8a84-491a-8ef0-8cc452b56125",
+    "name": "9882 Adams Ave, Huntington Beach, CA 92646, USA",
+    "amenities": [],
+    "location": [
+      33.6709728,
+      -117.9562028
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 60621
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "edf808fc-d100-46b1-90b8-129bd764bd25",
+    "name": "9882 Adams Ave, Huntington Beach, CA 92646, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6710088,
+      -117.9562442
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 19979
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "d0d9da18-5955-4652-9afa-41c3c8424d87",
+    "name": "Target",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6710088,
+      -117.9562442
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31980
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "5a436200-782a-4061-9158-9b1247567872",
+    "name": "Bruxie",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7913652,
+      -117.8533362
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23634
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "ec217ded-ba14-442a-aa8c-fdde417e43d7",
+    "name": "Alta Coffee Shop",
+    "amenities": [],
+    "location": [
+      33.615318,
+      -117.928423
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2841
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "cb873cb0-36c7-4b8a-8928-df14a4e46fba",
+    "name": "Argyros Forum",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.7930109,
+      -117.8504659
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 54974
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "c5e8c604-b73a-4995-87c4-fc9ad7203332",
+    "name": "First Christian Church of Orange",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.794199,
+      -117.841914
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 16446
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "e64423df-9e55-4fa9-b210-2a8b4fe757bc",
+    "name": "Wilkinson Hall",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7930045,
+      -117.8524747
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 29988
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "93b2892d-c38e-46c8-822f-5f6ee7d27f54",
+    "name": "The Leatherby Libraries",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7930031,
+      -117.8526062
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4335
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "ec0c3d14-88d6-4e56-b59f-f94c46dccd56",
+    "name": "Pralle-Sodaro Residence Hall, Chapman University",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7930031,
+      -117.8526062
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4817
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "b60bcbf2-f5e4-4773-8d2f-c4b52e5accfa",
+    "name": "Pralle-Sodaro Residence Hall, Chapman University",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7930031,
+      -117.8526062
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4816
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "7d8e5ee0-d711-440c-bf4f-942642720710",
+    "name": "Doti Hall, Chapman University",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7930031,
+      -117.8526062
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 4815
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "06a9346b-1d24-455c-a658-370d34040d81",
+    "name": "Shake Shack",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.574080825814576,
+      -117.83951229426808
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41023
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "1b45fa2e-fdda-46d8-9bc7-11a7cdb01d36",
+    "name": "North Morlan Hall",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.795635,
+      -117.850081
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 29986
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "a0130943-d062-41fa-84f0-76af169f2063",
+    "name": "First Christian Church of Orange",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7951957,
+      -117.8643336
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 19146
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "ac6f26bc-bbce-46f6-a597-3a9d87cd9383",
+    "name": "Tra Teahouse",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7551627,
+      -117.9384917
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25907
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "65791a9f-0536-438e-9487-e02192954f18",
+    "name": "Sizzler",
+    "amenities": [],
+    "location": [
+      33.7156728,
+      -117.9634785
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48192
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "5d31f10f-f086-4b08-8b08-697286a155b4",
+    "name": "Jack in the Box",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.737223,
+      -117.9550817
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 42839
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "88b50fdc-618c-4b74-9536-438580027292",
+    "name": "Krak Boba",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6184051,
+      -117.7065784
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 79205
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "917e72fa-1669-432c-9343-80228cf6b9d5",
+    "name": "Home Depot",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.686688,
+      -117.9714986
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25547
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "7615f666-8f42-4bd7-b2cc-10db56580257",
+    "name": "Wendy's",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8083797,
+      -117.8354423
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 33630
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "e943c223-96e5-47e4-b1c8-c22f24ace884",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.6780987,
+      -117.6766453
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48206
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "8c94eee1-1eb7-42ea-af01-bd1047a23de0",
+    "name": "12221 Harbor Blvd, Garden Grove, CA 92840, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7860704,
+      -117.9155146
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 46227
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "cc3d206e-ce4e-406d-b6f8-063ca6ad8f1c",
+    "name": "Ding Tea",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7455217,
+      -117.961539
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25817
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "23044c3f-ac6e-492f-9a7d-098ec4d07085",
+    "name": "Del Taco",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7896272,
+      -117.9143099
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23198
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "b551c836-a9bf-491c-8665-6590755190f8",
+    "name": "Wildfire Gymnastics",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.662063,
+      -117.674463
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24960
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "259038fb-75ed-41f9-9e1f-f9206bd1b7a3",
+    "name": "Alec",
+    "amenities": [
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.7742692,
+      -117.9379952
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 62004
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "e9be253c-e773-42a4-9fbe-f1610b673b9d",
+    "name": "Which Wich?",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8085328,
+      -117.8699374
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31245
+    },
+    "fetched_at": "2026-02-12T15:15:07.318226Z"
+  },
+  {
+    "id": "26beaabc-5bf3-4fce-b83f-7ccd656a3348",
+    "name": "22391 El Toro Rd, Lake Forest, CA 92630, USA",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.637031,
+      -117.680778
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 21280
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "6c371bf7-0c30-4580-9b27-5f5ad4b6d211",
+    "name": "22391 El Toro Rd, Lake Forest, CA 92630, USA",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.637031,
+      -117.680778
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 21279
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "e77fcd34-a44d-4233-b8f0-9c93f91a0908",
+    "name": "22391 El Toro Rd, Lake Forest, CA 92630, USA",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.637031,
+      -117.680778
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 21278
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "fc9782ec-69f3-4a4d-8434-42408c9fdb67",
+    "name": "Rubio's",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6759465,
+      -117.6679603
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 40700
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "5e3f6c2e-d320-4cf1-87c3-43431f30dff2",
+    "name": "Walmart",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7001772,
+      -117.9854869
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51146
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "a2384c96-6594-408b-9010-9e90c31b5725",
+    "name": "Huntington Beach",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.6457758,
+      -117.9801809
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25746
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "bd3c0317-e7b6-4cd2-bc9c-02702c113b0d",
+    "name": "Zoom Room",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.6857996,
+      -117.988867
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 18499
+    },
+    "fetched_at": "2026-02-12T15:15:07.319248Z"
+  },
+  {
+    "id": "72e627c4-1f0e-4be3-926d-dd15bfe1172a",
+    "name": "Jack in the Box",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.694255,
+      -117.988472
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 34097
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "8e8f8eb8-650f-4558-a91c-b5de0ce83bbe",
+    "name": "U-Haul",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.682702,
+      -117.9890874
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51776
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "105f0a5d-6b19-464f-8430-1c30778755a2",
+    "name": "Panda Express",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.69248220000001,
+      -117.9891967
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37000
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "dc596643-bd58-49fb-8dfe-85db5f5e930a",
+    "name": "Chevron",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.6936766,
+      -117.9896002
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 43079
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "578d6a5e-327e-42b1-ba04-eb52ae7ce075",
+    "name": "Pho HP Vietnamese Kitchen",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6928295,
+      -117.9900164
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 67771
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "cd1a43fa-f7a3-466b-ba7d-3092d227df85",
+    "name": "Lowes",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7171458,
+      -117.9858529
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 42631
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "1b7a77e9-58e2-4ef5-b48d-407ec1536e3b",
+    "name": "Trader Joe's",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.5773455,
+      -117.7245132
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35433
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "05b60b95-7add-4a43-8857-2ee70431d640",
+    "name": "Waba Grill",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6549158,
+      -117.9877288
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 52143
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "913a2ced-3bc7-497f-b75c-280d8a357c69",
+    "name": "Candlewood suites hotel",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.805096,
+      -117.9074617
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49756
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "c8f6ce69-c682-483d-add0-b6341ef82d45",
+    "name": "Asian Garden Mall",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7445931,
+      -117.9771636
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24238
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "54430dfc-36bc-4d27-a45f-ab127adb750b",
+    "name": "CVS Pharmacy",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.715985,
+      -117.9892097
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39566
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "ad3f3ad3-0a21-4290-a279-e034b7c5b653",
+    "name": "L & L Hawaiian BBQ",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.616048,
+      -117.6796471
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 59881
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "f2939ce6-2b27-4130-8554-9d6b5ab1102a",
+    "name": "L & L Hawaiian BBQ",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.616048,
+      -117.6796471
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 59858
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "9c81cb1f-32b9-40ef-a7c3-0975539f9e5a",
+    "name": "Mama Hong's",
+    "amenities": [],
+    "location": [
+      33.6790505,
+      -117.6578562
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31047
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "c4b10e12-4cb3-4d25-9ca6-d4881d52f236",
+    "name": "Mama Hong's",
+    "amenities": [],
+    "location": [
+      33.6790505,
+      -117.6578562
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 31049
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "c5d7c380-91e0-4c48-bae1-8b4f12f7451b",
+    "name": "Big lots",
+    "amenities": [],
+    "location": [
+      33.5920693,
+      -117.6990534
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22121
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "fecc2ed2-c09f-4733-97da-c612d418f111",
+    "name": "Einstein Brother's Bagels",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.725073,
+      -117.9889542
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 29476
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "ee52067e-5d36-4fde-948f-d71a35a73d2d",
+    "name": "Coldsun Cafe",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7746117,
+      -117.9574991
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 22350
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "69e581c9-519b-41f3-8d99-f837e7c6f036",
+    "name": "Subway",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.571962,
+      -117.7234
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 3156
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "042ec43f-0577-4e91-b1ff-24a2cef606e4",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.5904418,
+      -117.6992689
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 34105
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "73df4605-ce22-4f49-8a1a-316b4862c047",
+    "name": "The Pizza Press",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8061455,
+      -117.9145278
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48641
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "f8b94a3d-2a13-4814-9e55-606e1e544c7f",
+    "name": "Flo's Cafe",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8056122,
+      -117.9185652
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 35897
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "c5c35cb3-bfc0-4fe2-8fe4-9c29d8d9b9bd",
+    "name": "Tiffys Family Restaurant",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8030175,
+      -117.9235862
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 3855
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "122127d5-1405-41ce-a086-4369ae8c2902",
+    "name": "Urth Caffé",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.5441817,
+      -117.788436
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 30213
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "9a07f251-265e-442f-b634-e5ee6beddf25",
+    "name": "Urth Caffe Laguna Beach",
+    "amenities": [
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.5441123,
+      -117.7884652
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 60370
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "8d36eff8-fa87-4ad5-9f39-c4160fb07cd0",
+    "name": "Bugs Land",
+    "amenities": [],
+    "location": [
+      33.806112,
+      -117.920859
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 40566
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "aa94dbc8-3332-416e-a9d4-fa7ec5fdd6db",
+    "name": "California Adventure - Bugs Land",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.809199,
+      -117.915564
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 759
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "ccb8e49f-e79d-416e-a45e-d02d2f76147f",
+    "name": "21205-21245 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+    "amenities": [],
+    "location": [
+      33.6536,
+      -117.9967088
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23628
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "e4f06103-e9ce-4ee9-885c-4747d131221c",
+    "name": "Whole Foods",
+    "amenities": [],
+    "location": [
+      33.543902,
+      -117.783872
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 1767
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "30a4830f-2e0a-433a-8597-bec7eaa9391d",
+    "name": "Laguna Beach Visitors Center",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.543744,
+      -117.784579
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 1920
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "1473f5b8-a204-45ca-998d-6fc63875e9a1",
+    "name": "The cove market & cafe (Tropicana inn convenience store)",
+    "amenities": [],
+    "location": [
+      33.8102146,
+      -117.9141443
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49199
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "3942b0e5-f41c-46be-94f7-edf83d8f8d9e",
+    "name": "Grizzly Peak in California Adventure",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8070049,
+      -117.9204971
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41193
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "a3837cd3-df8c-4d86-bf16-3f49449c1cfe",
+    "name": "Grizzly Peak in California Park",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8070049,
+      -117.9204971
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41191
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "8e966ab9-e8aa-4feb-a46a-5c84337fa6c9",
+    "name": "Grizzly Peak - California Adventure",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8070049,
+      -117.9204971
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 41192
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "d89513b3-ccbb-40d2-8862-b27f71406cea",
+    "name": "Moulin",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.5429639,
+      -117.7830208
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 121147
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "90b99c14-2cc1-4109-a478-7d2c3d731d7a",
+    "name": "Avila' El Ranchito",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6593038,
+      -117.9995265
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 36369
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "93b77571-73be-4388-9885-2689576f827b",
+    "name": "Disneyland (Anaheim California)",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8104086,
+      -117.91687
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39152
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "f79e5fae-6d0b-4ae5-9b8a-7fa984687a27",
+    "name": "Family restrooms in Cars Land",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.8105175,
+      -117.9169818
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 46916
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "08b0c948-f1f5-4fe9-a67f-77f1eedfa8c8",
+    "name": "Napolini",
+    "amenities": [
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.80753002834555,
+      -117.9227530936967
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39948
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "7bcb3f31-2c8a-4fb2-a42d-16fff9f3ba67",
+    "name": "Jamba Juice",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7327263,
+      -117.9931732
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51206
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "8b9832ec-4ee8-4147-9d1f-537e594aa026",
+    "name": "Chronic Tacos",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7308753,
+      -117.9946446
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23549
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "d56cf043-97fc-4996-b5c3-579962c5d746",
+    "name": "Century Huntington Beach and XD, Cinemark Theaters",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7328566,
+      -117.9940881
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32687
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "86bc8a70-085e-4d75-8a91-40e207be1e38",
+    "name": "ACC North Family Restroom",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8031786,
+      -117.9327139
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 54904
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "70f67597-b49d-469f-ab43-32d30fbd642c",
+    "name": "Main Street U.S.A., Anaheim, CA 92802, USA",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8109883,
+      -117.9189778
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50070
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "37f6bdcb-49f5-4380-be9f-fae1887779e3",
+    "name": "201 5th Street, Huntington Beach, CA 92648, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6589367,
+      -118.001976
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 18342
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "6c1e259f-e31e-490d-9ee4-58ff0d099675",
+    "name": "Chronic Tacos",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7305138,
+      -117.9960791
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23550
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "697fdffb-32e5-41d1-975e-943560abd429",
+    "name": "Downtown Disney Starbucks",
+    "amenities": [
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8091327,
+      -117.9236622
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 48538
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "9245840a-4f1c-438e-b252-847b8c2ebed8",
+    "name": "Huntington Beach Pier",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.6571811,
+      -118.0019859
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 18717
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "20acc191-263a-4eed-b520-27828debf152",
+    "name": "Tiki Room",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.811643,
+      -117.919564
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50206
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "9aa43799-0890-4589-ab94-bf33bfd448ed",
+    "name": "285 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+    "amenities": [],
+    "location": [
+      33.6559733,
+      -118.0019104
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 60623
+    },
+    "fetched_at": "2026-02-12T15:15:07.943219Z"
+  },
+  {
+    "id": "e0b88d5d-dcf3-4209-bf3e-f1cceaf0c24c",
+    "name": "Catal Restaurant, Downtown Disney",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8092163,
+      -117.9243962
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 29295
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "a9a8de88-24f9-4382-8766-940f87bc2da2",
+    "name": "Adventureland, Anaheim, CA 92802, USA",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8116593,
+      -117.9197729
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25535
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "d617771c-d220-4046-a35d-881cfde1f98a",
+    "name": "Adventureland, Anaheim, CA 92802, USA",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8116593,
+      -117.9197729
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 25851
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "bb67aac8-093c-48a0-8818-8126668af84c",
+    "name": "Star Wars Land",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8120918,
+      -117.9189742
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 66565
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "ab35c138-8009-40cc-8b76-9e9afb2f3a7c",
+    "name": "California adventure",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8124094,
+      -117.9192679
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37243
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "842f6d17-edc6-4a08-b069-e18ed97b2e74",
+    "name": "Fort Wilderness",
+    "amenities": [
+      "wheelchair",
+      "baby_changing"
+    ],
+    "location": [
+      33.8125407,
+      -117.9216496
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50207
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "469ec9f1-4773-442f-8f42-035d29d538e0",
+    "name": "Hungry Bear",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8127447,
+      -117.9227046
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50208
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "8c099f82-3e64-48c6-a050-b22201ae9f19",
+    "name": "The Park Bench Cafe",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.705543,
+      -118.006372
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2913
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "74709743-7987-4d46-9381-de5516c5eb12",
+    "name": "CVS Pharmacy",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7169735,
+      -118.0042269
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39003
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "e14007dd-4d12-4e0f-af9d-858627f0311b",
+    "name": "Cold Stone Creamery",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7893105,
+      -117.9591431
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23521
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "75c696bd-6382-463f-ad3b-9c02a394ea9c",
+    "name": "The Wok Experience",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7160919,
+      -118.0053882
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 50596
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "2ba4bcf2-87f0-4ff1-8283-bdbc0ae197c5",
+    "name": "Uncle Petes Cafe",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7549478,
+      -117.9890148
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 59264
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "9c5c2745-e5c7-4c40-8a6c-6c62ebfcab28",
+    "name": "Shipley Nature Center",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7031351,
+      -118.008806
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32851
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "fc9bcd1d-fd5b-49b4-833f-7c40b7bfc4bf",
+    "name": "Shipley Nature Center",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7031351,
+      -118.008806
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32799
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "99ad1546-5197-465b-98ba-feb347e900c7",
+    "name": "Shipley Nature Center",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7031351,
+      -118.008806
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 32798
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "2e551814-187a-4b67-8b9f-6fb7d6a8ae79",
+    "name": "El pollo loco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7165478,
+      -118.0062345
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 53471
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "182f5f0a-6645-4d9e-b170-c7b8b168c98a",
+    "name": "Disneyland",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8153513,
+      -117.9251185
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2801
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "bdf166b9-0bc5-4af9-aee9-a6467079105e",
+    "name": "am pm",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7225543,
+      -118.0070809
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 47073
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "5f511395-3ee1-4781-9a22-8fbed06d6822",
+    "name": "Wendy’s",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.729195,
+      -118.006326
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 39832
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "06a8fe02-8162-4e8c-a209-7a0988e6fdf2",
+    "name": "Green Tomato Grill",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7294789,
+      -118.0063715
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 42550
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "b9035a7f-21ea-4325-b88e-85f0f240df0d",
+    "name": "Golden West College",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.73357406820518,
+      -118.00482647504471
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 45444
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "eed86069-6f87-4440-a2ba-c42c2fdccb19",
+    "name": "Wahoos fish taco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.5338049,
+      -117.7770508
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 47648
+    },
+    "fetched_at": "2026-02-12T15:15:08.602998Z"
+  },
+  {
+    "id": "16611018-39ad-4ed1-ade6-272efc572f72",
+    "name": "Del Taco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8374059,
+      -117.8713893
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 43614
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "9280506c-0344-4780-9610-c8b51928399c",
+    "name": "Portola Park",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.67318330000001,
+      -117.6371044
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 67121
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "6e150792-f986-40b4-b2b8-3b794e133010",
+    "name": "CVS",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7368329,
+      -118.0062574
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 51208
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "c1427268-d0f2-4a8e-9cb7-612b58820695",
+    "name": "Best Western Plus",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.5299808,
+      -117.7724039
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 23932
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "89916885-462c-4188-b200-c84a380f85c2",
+    "name": "Starbucks Coffee",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.7555128,
+      -118.000567
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 19244
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "9a4f61e6-c699-4af9-912a-062ee5650d43",
+    "name": "GoodWill",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7590886,
+      -117.9984013
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 42045
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "7e63ffda-6474-4fca-910f-8781847efd45",
+    "name": "Kmart",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8385938,
+      -117.8862011
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2742
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "dde0b62d-dd10-4fd2-b525-1ad4c0714a47",
+    "name": "Joann's Fabric",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.7435696,
+      -118.0081391
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 37813
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "6453bd95-489c-400c-a890-d132f3083b3d",
+    "name": "Wing Stop",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8170735,
+      -117.9420129
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 44306
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "f62f1f37-dea2-4cd6-84b3-a41e7c59c0b9",
+    "name": "Mission Viejo Library",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.595229,
+      -117.659249
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 2406
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "55789900-bf2a-4dc1-8399-3f75618edfbe",
+    "name": "Requiem Coffee Tea and Fantasy",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.8329651,
+      -117.9162536
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 58750
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "3f733a6e-23c7-40c0-85e8-28c278b73b58",
+    "name": "Requiem Coffee Tea and Fantasy",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8329536,
+      -117.9163054
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 52019
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "2698836e-e303-4281-bb20-4062b0d22e85",
+    "name": "Requiem: Coffee, Tea, and Fantasy",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8329536,
+      -117.9163054
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 52063
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "3b291f81-9776-4b6b-8cc5-a3818bde4b5a",
+    "name": "Target",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.7462486,
+      -118.0123521
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 38154
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "4e648865-e92c-4550-b02e-b2ab5461ef8a",
+    "name": "Bottle Logic Brewing",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8494906,
+      -117.8596231
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 47812
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "57e4234f-bea4-4682-8d4c-00e848e0660e",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8353164,
+      -117.9140718
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 52020
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "bce110f6-d457-40ae-b891-7139376f56bb",
+    "name": "Westminster Mall",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7475119,
+      -118.0132
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 36960
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "39e496f9-ff21-455b-8292-70ebc68a2b45",
+    "name": "starbucks",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7441042,
+      -118.0154524
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 49608
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "7b5fbe24-ce18-42f5-8f81-cf745cf6b64f",
+    "name": "Jack In the box",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7439923,
+      -118.0160379
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 38852
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "7849e062-b86b-4627-9e70-e3147060f5f6",
+    "name": "Kaiser Permanente",
+    "amenities": [
+      "unisex"
+    ],
+    "location": [
+      33.8530926,
+      -117.8177324
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 74815
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "72978fe5-8d53-4277-88e9-1b5a20ff5ee8",
+    "name": "Del Taco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7150898,
+      -118.0260428
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 38093
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "cfe841ad-046c-4bf6-b9e6-58d71d203c72",
+    "name": "Del Taco",
+    "amenities": [
+      "wheelchair",
+      "unisex"
+    ],
+    "location": [
+      33.7624682,
+      -118.0075612
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 42992
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "14d8632d-8bc9-4372-8d29-6b9290d6b1ee",
+    "name": "Ariana",
+    "amenities": [
+      "baby_changing"
+    ],
+    "location": [
+      33.8336596,
+      -117.9241212
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 58601
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "12e91d81-36f2-4bae-8a4a-7677bcc46458",
+    "name": "Anaheim high school",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8336596,
+      -117.9241212
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 58605
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "09d0bd3c-0beb-4a3d-b46c-19020c943582",
+    "name": "Starbucks",
+    "amenities": [
+      "wheelchair",
+      "baby_changing",
+      "unisex"
+    ],
+    "location": [
+      33.8329026,
+      -117.9285158
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 43618
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "d2e5b736-fd58-4773-9624-df6d3c393c12",
+    "name": "Creamistry",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8526197,
+      -117.7888877
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24338
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
+  },
+  {
+    "id": "15dc72bf-24d1-4db6-9466-ab4656c17a17",
+    "name": "Creamistry",
+    "amenities": [
+      "wheelchair"
+    ],
+    "location": [
+      33.8526197,
+      -117.7888877
+    ],
+    "ratings": {
+      "cleanliness": 0.0,
+      "safety": 0.0,
+      "overall": 0.0
+    },
+    "opening_hours": "00:00-23:59",
+    "crowd_updates": "unknown",
+    "source": {
+      "name": "refugerestrooms",
+      "external_id": 24337
+    },
+    "fetched_at": "2026-02-12T15:15:08.603514Z"
   }
 ]

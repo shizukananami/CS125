@@ -1,4 +1,7 @@
+import 'react-native-gesture-handler';
+import 'react-native-url-polyfill/auto';
 import React from 'react';
+import { registerRootComponent } from 'expo';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './src/screens/HomeScreen';
@@ -21,4 +24,4 @@ const App = () => {
   );
 };
 
-export default App;
+registerRootComponent(App);
