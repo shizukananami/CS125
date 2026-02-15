@@ -26,7 +26,7 @@ def is_open(bathroom, current_time):
 def rank_bathrooms(bathrooms, user_context, top_k=10):
     ranked = []
     user_lat, user_lng = user_context['location']
-    current_time = datetime.now().strftime("%H:%M")
+    current_time = user_context.get('time', datetime.now().strftime("%H:%M"))
     for bathroom in bathrooms:
         score = 0
 
