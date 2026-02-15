@@ -31,3 +31,18 @@ Built in React Native (Expo) for mobile frontend and Python (Flask) for backend.
   - Have strong, recent crowd-sourced ratings
   - Reflect current availability and conditions
 - Outdated or poorly rated facilities are deprioritized to maintain reliability.
+
+## Running
+**Terminal 1 - Backend:**
+bash
+cd backend
+python app.py
+
+**Terminal 2 - Frontend:**
+bash
+cd SmartRestroomFinder
+npm start
+
+**Terminal 3 - iOS:**
+bash
+npm run ios
