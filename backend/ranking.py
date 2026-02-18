@@ -23,7 +23,7 @@ def is_open(bathroom, current_time):
         return True
     return start <= current_time <= end
 
-def rank_bathrooms(bathrooms, user_context, top_k=10):
+def rank_bathrooms(bathrooms, user_context, user_history, top_k=10):
     ranked = []
     user_lat, user_lng = user_context['location']
     current_time = user_context.get('time', datetime.now().strftime("%H:%M"))
@@ -48,6 +48,7 @@ def rank_bathrooms(bathrooms, user_context, top_k=10):
         )
         # reward closer bathrooms
         score += max(0, MAX_DISTANCE_SCORE - dist * DISTANCE_SCORE_FACTOR)
+        score += user_history.get(bathroom.get("id"), 0)
 
         ranked.append((bathroom, score))
 
