@@ -7,20 +7,20 @@ with open(os.path.join(BASE_DIR, 'data', 'bathrooms.json')) as f:
     bathrooms = json.load(f)
 
 
-# def run_example(example_name, user_context):
-#     print(f"\n===== {example_name} =====")
-#     print("User Context:", user_context)
+def run_example(example_name, user_context):
+    print(f"\n===== {example_name} =====")
+    print("User Context:", user_context)
 
-#     start = time.time()
-#     results = rank_bathrooms(bathrooms, user_context, [], 3)
-#     latency = (time.time() - start) * 1000  # ms
+    start = time.time()
+    results = rank_bathrooms(bathrooms, user_context, [], 3)
+    latency = (time.time() - start) * 1000  # ms
 
-#     print("\nTop Results:")
-#     for i, b in enumerate(results, 1):
-#         print(f"{i}. {b['name']} | Amenities: {b.get('amenities')}")
+    print("\nTop Results:")
+    for i, b in enumerate(results, 1):
+        print(f"{i}. {b['name']} | Amenities: {b.get('amenities')}")
 
-#     print(f"\nLatency: {latency:.2f} ms")
-#     return results
+    print(f"\nLatency: {latency:.2f} ms")
+    return results
 
 # def precision_at_k(results, required_feature):
 #     relevant = 0
@@ -50,12 +50,36 @@ with open(os.path.join(BASE_DIR, 'data', 'bathrooms.json')) as f:
 # print("Precision@3:", precision_at_k(results2, "wheelchair"))
 
 
-user_history = {"d02ad30d-30dd-47f8-b670-2abb2340da43" : 10}
-context2 = {
+# user_history = {"d02ad30d-30dd-47f8-b670-2abb2340da43" : 10}
+# context3 = {
+#     "time": "09:00",
+#     "location": [33.6846, -117.8200]
+# }
+# results3 = rank_bathrooms(bathrooms, context3, user_history, 3)
+# print("\nExample 3 - User History Preference")
+# for b in results3:
+#     print(b["name"])
+
+# example filters
+filters = {
+    "amenities": ["wheelchair"]
+}
+context4 = {
     "time": "09:00",
     "location": [33.6846, -117.8200]
 }
-results3 = rank_bathrooms(bathrooms, context2, user_history, 3)
-print("\nExample 3 - User History Preference")
-for b in results3:
-    print(b["name"])
+
+filtered_bathrooms = []
+for bathroom in bathrooms:
+    if 'amenities' in filters:
+        required = set(filters['amenities'])
+        if not required.issubset(set(bathroom.get('amenities', []))):
+            continue
+    filtered_bathrooms.append(bathroom)
+
+results2 = rank_bathrooms(filtered_bathrooms, context4, user_history={})
+
+print("filter example")
+print(results2[:3])
+# for b in results2[:3]:
+#     print(b['name'])

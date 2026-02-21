@@ -12,7 +12,18 @@ with open('data/bathrooms.json') as f:
 @app.route('/api/top-bathrooms', methods=['POST'])
 def get_top_bathrooms():
     user_context = request.json
-    top = rank_bathrooms(bathrooms, user_context, user_history)
+    filters = user_context.get('filters', {}) 
+    filtered = []
+    for bathroom in bathrooms:
+        if 'amenities' in filters:
+            required = set(filters['amenities'])
+            if not required.issubset(set(bathroom.get('amenities', []))):
+                continue
+        if 'crowd' in filters:
+            if bathroom.get('crowd_updates', 'medium') != filters['crowd']:
+                continue
+        filtered.append(bathroom)
+    top = rank_bathrooms(filtered, user_context, user_history)
     return jsonify(top)
 
 @app.route('/api/record-visit', methods=['POST'])
@@ -26,4 +37,5 @@ def record_visit():
     return jsonify({"status": "ok"})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)

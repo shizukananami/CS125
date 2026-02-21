@@ -110,97 +110,97 @@ const HomeScreen = ({ navigation }) => {
     navigation.navigate('BathroomDetail', { bathroom, userLocation });
   };
 
-  // return (
-  //   <View style={styles.container}>
-  //     <View style={styles.header}>
-  //       <Text style={styles.headerTitle}>Smart Restroom Finder</Text>
-  //       <View style={styles.headerButtons}>
-  //         <TouchableOpacity
-  //           style={styles.iconButton}
-  //           onPress={() => setFilterVisible(true)}
-  //         >
-  //           <Icon name="tune" size={24} color="#2196F3" />
-  //         </TouchableOpacity>
-  //         <TouchableOpacity
-  //           style={styles.iconButton}
-  //           onPress={() => setViewMode(viewMode === 'list' ? 'map' : 'list')}
-  //         >
-  //           <Icon
-  //             name={viewMode === 'list' ? 'map' : 'list'}
-  //             size={24}
-  //             color="#2196F3"
-  //           />
-  //         </TouchableOpacity>
-  //         <TouchableOpacity style={styles.iconButton} onPress={fetchBathrooms}>
-  //           <Icon name="refresh" size={24} color="#2196F3" />
-  //         </TouchableOpacity>
-  //       </View>
-  //     </View>
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.headerTitle}>Smart Restroom Finder</Text>
+        <View style={styles.headerButtons}>
+          <TouchableOpacity
+            style={styles.iconButton}
+            onPress={() => setFilterVisible(true)}
+          >
+            <Icon name="tune" size={24} color="#2196F3" />
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={styles.iconButton}
+            onPress={() => setViewMode(viewMode === 'list' ? 'map' : 'list')}
+          >
+            <Icon
+              name={viewMode === 'list' ? 'map' : 'list'}
+              size={24}
+              color="#2196F3"
+            />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.iconButton} onPress={fetchBathrooms}>
+            <Icon name="refresh" size={24} color="#2196F3" />
+          </TouchableOpacity>
+        </View>
+      </View>
 
-  //     {preferences.length > 0 && (
-  //       <View style={styles.activeFilters}>
-  //         <Text style={styles.filterText}>
-  //           Active filters: {preferences.join(', ')}
-  //         </Text>
-  //         {urgency !== 'normal' && (
-  //           <Text style={styles.urgencyText}>Urgency: {urgency}</Text>
-  //         )}
-  //       </View>
-  //     )}
+      {preferences.length > 0 && (
+        <View style={styles.activeFilters}>
+          <Text style={styles.filterText}>
+            Active filters: {preferences.join(', ')}
+          </Text>
+          {urgency !== 'normal' && (
+            <Text style={styles.urgencyText}>Urgency: {urgency}</Text>
+          )}
+        </View>
+      )}
 
-  //     {loading ? (
-  //       <View style={styles.loadingContainer}>
-  //         <ActivityIndicator size="large" color="#2196F3" />
-  //         <Text style={styles.loadingText}>Finding best restrooms...</Text>
-  //       </View>
-  //     ) : viewMode === 'list' ? (
-  //       <FlatList
-  //         data={bathrooms}
-  //         keyExtractor={(item, index) => index.toString()}
-  //         renderItem={({ item }) => (
-  //           <BathroomCard
-  //             bathroom={item}
-  //             distance={
-  //               userLocation
-  //                 ? calculateDistance(
-  //                     userLocation.latitude,
-  //                     userLocation.longitude,
-  //                     item.location[0],
-  //                     item.location[1]
-  //                   )
-  //                 : null
-  //             }
-  //             onPress={() => handleBathroomPress(item)}
-  //           />
-  //         )}
-  //         ListEmptyComponent={
-  //           <View style={styles.emptyContainer}>
-  //             <Icon name="search-off" size={48} color="#ccc" />
-  //             <Text style={styles.emptyText}>No restrooms found nearby</Text>
-  //           </View>
-  //         }
-  //       />
-  //     ) : (
-  //       <BathroomMapView
-  //         bathrooms={bathrooms}
-  //         userLocation={userLocation}
-  //         onMarkerPress={handleBathroomPress}
-  //       />
-  //     )}
+      {loading ? (
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color="#2196F3" />
+          <Text style={styles.loadingText}>Finding best restrooms...</Text>
+        </View>
+      ) : viewMode === 'list' ? (
+        <FlatList
+          data={bathrooms}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({ item }) => (
+            <BathroomCard
+              bathroom={item}
+              distance={
+                userLocation
+                  ? calculateDistance(
+                      userLocation.latitude,
+                      userLocation.longitude,
+                      item.location[0],
+                      item.location[1]
+                    )
+                  : null
+              }
+              onPress={() => handleBathroomPress(item)}
+            />
+          )}
+          ListEmptyComponent={
+            <View style={styles.emptyContainer}>
+              <Icon name="search-off" size={48} color="#ccc" />
+              <Text style={styles.emptyText}>No restrooms found nearby</Text>
+            </View>
+          }
+        />
+      ) : (
+        <BathroomMapView
+          bathrooms={bathrooms}
+          userLocation={userLocation}
+          onMarkerPress={handleBathroomPress}
+        />
+      )}
 
-  //     <FilterModal
-  //       visible={filterVisible}
-  //       onClose={() => setFilterVisible(false)}
-  //       onApply={handleApplyFilters}
-  //       currentPreferences={preferences}
-  //     />
-  //   </View>
-  // );
-    return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>testing123</Text>
+      <FilterModal
+        visible={filterVisible}
+        onClose={() => setFilterVisible(false)}
+        onApply={handleApplyFilters}
+        currentPreferences={preferences}
+      />
     </View>
   );
+  //   return (
+  //   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+  //     <Text>testing12345</Text>
+  //   </View>
+  // );
 };
 
 const styles = StyleSheet.create({
