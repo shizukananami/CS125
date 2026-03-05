@@ -24,6 +24,7 @@ def is_open(bathroom, current_time):
     return start <= current_time <= end
 
 def rank_bathrooms(bathrooms, user_context, user_history, top_k=10):
+    urgency = user_context.get("urgency", "normal")
     ranked = []
     user_lat, user_lng = user_context['location']
     current_time = user_context.get('time', datetime.now().strftime("%H:%M"))
@@ -34,7 +35,10 @@ def rank_bathrooms(bathrooms, user_context, user_history, top_k=10):
             score += 5
 
         # intersect amenities with user preferences
-        score += len(set(bathroom.get('amenities', [])) & set(user_context.get('preferences', []))) * AMENITIES_SCORE
+        score += len(
+            set(bathroom.get('amenities', [])) &
+            set(user_context.get('filters', {}).get('amenities', []))
+        ) * AMENITIES_SCORE
 
         ratings = bathroom.get('ratings') or {}
         score += ratings.get('cleanliness', 0.0) * CLEANLINESS_SCORE
@@ -47,7 +51,13 @@ def rank_bathrooms(bathrooms, user_context, user_history, top_k=10):
             bathroom['location'][0], bathroom['location'][1]
         )
         # reward closer bathrooms
-        score += max(0, MAX_DISTANCE_SCORE - dist * DISTANCE_SCORE_FACTOR)
+        distance_weight = 1
+        if urgency == "high":
+            distance_weight = 2      # prioritize closer bathrooms
+        elif urgency == "low":
+            distance_weight = 0.5
+
+        score += max(0, MAX_DISTANCE_SCORE - dist * DISTANCE_SCORE_FACTOR * distance_weight)
         score += user_history.get(bathroom.get("id"), 0)
 
         ranked.append((bathroom, score))

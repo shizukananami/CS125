@@ -22,14 +22,14 @@ def run_example(example_name, user_context):
     print(f"\nLatency: {latency:.2f} ms")
     return results
 
-# def precision_at_k(results, required_feature):
-#     relevant = 0
+def precision_at_k(results, required_feature):
+    relevant = 0
 
-#     for b in results:
-#         if required_feature in b.get("amenities", []):
-#             relevant += 1
+    for b in results:
+        if required_feature in b.get("amenities", []):
+            relevant += 1
 
-#     return relevant / len(results) if results else 0
+    return relevant / len(results) if results else 0
 
 # context1 = {
 #     "preferences": ["baby_changing"],
@@ -77,9 +77,10 @@ for bathroom in bathrooms:
             continue
     filtered_bathrooms.append(bathroom)
 
-results2 = rank_bathrooms(filtered_bathrooms, context4, user_history={})
+results4 = rank_bathrooms(filtered_bathrooms, context4, user_history={})
 
 print("filter example")
-print(results2[:3])
-# for b in results2[:3]:
+print(results4[:3])
+print("Precision@3:", precision_at_k(results4, "wheelchair"))
+# for b in results4[:3]:
 #     print(b['name'])

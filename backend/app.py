@@ -14,6 +14,7 @@ def get_top_bathrooms():
     user_context = request.json
     filters = user_context.get('filters', {}) 
     filtered = []
+    print(user_context)
     for bathroom in bathrooms:
         if 'amenities' in filters:
             required = set(filters['amenities'])
@@ -30,6 +31,7 @@ def get_top_bathrooms():
 def record_visit():
     data = request.json
     bathroom_id = data.get("bathroom_id")
+    print(f"Recording visit for bathroom_id: {bathroom_id}")
 
     if bathroom_id:
         user_history[bathroom_id] = user_history.get(bathroom_id, 0) + 1
@@ -38,4 +40,4 @@ def record_visit():
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)
