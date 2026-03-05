@@ -12,6 +12,14 @@ export const getTopBathrooms = async (userContext) => {
   }
 };
 
+export const recordVisit = async (bathroomId) => {
+  try {
+    await axios.post(`${API_BASE_URL}/record-visit`, { bathroom_id: bathroomId });
+  } catch (error) {
+    console.error('Error recording visit:', error);
+  }
+};
+
 export const submitRating = async (bathroomId, rating) => {
   // Placeholder for future implementation
   try {

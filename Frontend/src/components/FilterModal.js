@@ -29,13 +29,14 @@ const FilterModal = ({ visible, onClose, onApply, currentPreferences }) => {
   };
 
   const handleApply = () => {
+    console.log(123);
     onApply({
       filters: {
         amenities: preferences
       },
       urgency
     });
-    onClose(); // closes the modal
+    onClose(); 
   };
 
   return (

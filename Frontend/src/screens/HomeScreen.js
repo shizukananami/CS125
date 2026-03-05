@@ -13,7 +13,7 @@ import * as Location from 'expo-location';
 import BathroomCard from '../components/BathroomCard';
 import BathroomMapView from '../components/MapView';
 import FilterModal from '../components/FilterModal';
-import { getTopBathrooms } from '../services/api';
+import { getTopBathrooms, recordVisit } from '../services/api';
 
 const HomeScreen = ({ navigation }) => {
   const [bathrooms, setBathrooms] = useState([]);
@@ -107,6 +107,7 @@ const HomeScreen = ({ navigation }) => {
   };
 
   const handleBathroomPress = (bathroom) => {
+    recordVisit(bathroom.id);
     navigation.navigate('BathroomDetail', { bathroom, userLocation });
   };
 
