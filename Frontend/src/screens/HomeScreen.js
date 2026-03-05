@@ -21,7 +21,7 @@ const HomeScreen = ({ navigation }) => {
   const [userLocation, setUserLocation] = useState(null);
   const [viewMode, setViewMode] = useState('list');
   const [filterVisible, setFilterVisible] = useState(false);
-  const [preferences, setPreferences] = useState([]);
+  const [filters, setFilters] = useState({ amenities: [] });
   const [urgency, setUrgency] = useState('normal');
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const HomeScreen = ({ navigation }) => {
     if (userLocation) {
       fetchBathrooms();
     }
-  }, [userLocation, preferences, urgency]);
+  }, [userLocation, filters, urgency]);
 
   const getCurrentLocation = async () => {
     setLoading(true);
@@ -67,7 +67,7 @@ const HomeScreen = ({ navigation }) => {
     try {
       const currentTime = new Date().toTimeString().slice(0, 5); // HH:MM format
       const userContext = {
-        preferences: preferences,
+        filters: filters,
         time: currentTime,
         location: [userLocation.latitude, userLocation.longitude],
         urgency: urgency,
@@ -101,9 +101,9 @@ const HomeScreen = ({ navigation }) => {
     return `${distance.toFixed(1)}km`;
   };
 
-  const handleApplyFilters = (filters) => {
-    setPreferences(filters.preferences);
-    setUrgency(filters.urgency);
+  const handleApplyFilters = (data) => {
+    setFilters(data.filters);
+    setUrgency(data.urgency);
   };
 
   const handleBathroomPress = (bathroom) => {
@@ -137,13 +137,16 @@ const HomeScreen = ({ navigation }) => {
         </View>
       </View>
 
-      {preferences.length > 0 && (
+      {filters?.amenities?.length > 0 && (
         <View style={styles.activeFilters}>
           <Text style={styles.filterText}>
-            Active filters: {preferences.join(', ')}
+            Active filters: {filters.amenities.join(', ')}
           </Text>
+
           {urgency !== 'normal' && (
-            <Text style={styles.urgencyText}>Urgency: {urgency}</Text>
+            <Text style={styles.urgencyText}>
+              Urgency: {urgency}
+            </Text>
           )}
         </View>
       )}
@@ -192,7 +195,7 @@ const HomeScreen = ({ navigation }) => {
         visible={filterVisible}
         onClose={() => setFilterVisible(false)}
         onApply={handleApplyFilters}
-        currentPreferences={preferences}
+        currentPreferences={filters?.amenities}
       />
     </View>
   );
