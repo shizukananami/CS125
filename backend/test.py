@@ -1,5 +1,5 @@
 import os, json
-from ranking import rank_bathrooms
+from ranking import rank_bathrooms, simple_distance
 import time
 
 BASE_DIR = os.path.dirname(__file__)
@@ -68,7 +68,7 @@ context4 = {
     "time": "09:00",
     "location": [33.6846, -117.8200]
 }
-
+user_lat, user_lng = context4["location"]
 filtered_bathrooms = []
 for bathroom in bathrooms:
     if 'amenities' in filters:
@@ -79,8 +79,26 @@ for bathroom in bathrooms:
 
 results4 = rank_bathrooms(filtered_bathrooms, context4, user_history={})
 
-print("filter example")
-print(results4[:3])
+print("filter example 1: Wheelchair Accessibility Filter")
+for b in results4[:3]:
+    dist = simple_distance(user_lat, user_lng, b["location"][0], b["location"][1])
+    print(b["name"], "distance:", dist)
+    print(b['name'], "-", b.get('amenities', []), "cleanliness: ", b.get('ratings', {}).get('cleanliness', 'N/A'), "safety: ", b.get('ratings', {}).get('safety', 'N/A'))
 print("Precision@3:", precision_at_k(results4, "wheelchair"))
-# for b in results4[:3]:
-#     print(b['name'])
+
+context5 = {
+    "urgency": "high",
+    "time": "12:00",
+    "location": [33.6846, -117.8200]
+}
+
+results5 = rank_bathrooms(bathrooms, context5, user_history={})
+
+print("Example 2: High Urgency Ranking")
+
+user_lat, user_lng = context5["location"]
+
+for b in results5[:3]:
+    dist = simple_distance(user_lat, user_lng, b["location"][0], b["location"][1])
+    print(b["name"], "distance:", dist)
+    print(b['name'], "-", b.get('amenities', []), "cleanliness: ", b.get('ratings', {}).get('cleanliness', 'N/A'), "safety: ", b.get('ratings', {}).get('safety', 'N/A'))
